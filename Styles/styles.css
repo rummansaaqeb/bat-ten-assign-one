@@ -1,5 +1,293 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.font {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Nav Bar Styles Start Here */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin-left: 150px;
+    margin-top: 55px;
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+
+}
+
+.right {
+    margin-right: 166px;
+    margin-top: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px;
+}
+
+/* Nav Bar Styles End Here */
+
+
+/* Banner Styles Start Here */
+
+
+.banner-container {
+    width: 1730px;
+    height: 652px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: url(/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-title img {
+    margin-top: 26px;
+}
+
+.banner-title h1 {
+    margin-top: 32px;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-title p {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-title button {
+    margin-top: 32px;
+}
+
+.banner-btn {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 208px;
+    height: 66px;
+}
+
+.banner-btn span {
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Banner Styles End Here */
+
+
+/* Why Web Development Styles Start Here */
+
+
+.why-web-dev-container {
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 74px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-dev-title-container {
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.why-web-dev-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.why-web-dev-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.coding-sec-one {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    border-radius: 16px;
+}
+
+.coding-sec-one-img {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.coding-sec-one-header {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.coding-sec-one-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 16px;
+    line-height: 26px;
+}
+
+.coding-sec-one-btn {
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+    padding: 12px 20px;
+    margin-left: 32px;
+}
+
+.coding-sec-one-btn a {
+    text-decoration: none;
+}
+
+.coding-sec-one-btn-text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 23px;
+}
+
+.coding-sec-two {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.coding-sec-two-img img {
+    width: 259.56px;
+    height: 250px;
+    margin-right: 32px;
+}
+
+.code-sec-two-header {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.code-sec-two-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.code-sec-two-btn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+    padding: 12px 20px;
+}
+.coding-sec-two-btn-text{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 23px;
+}
+.code-sec-two-btn a{
+    text-decoration: none;
+}
+.coding-sec-three {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    border-radius: 16px;
+}
+
+.coding-sec-three-img {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.coding-sec-three-header {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.coding-sec-three-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 16px;
+    line-height: 26px;
+}
+
+.coding-sec-three-btn {
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+    padding: 12px 20px;
+    margin-left: 32px;
+}
+
+.coding-sec-three-btn a {
+    text-decoration: none;
+}
+
+.coding-sec-three-btn-text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 23px;
 }
