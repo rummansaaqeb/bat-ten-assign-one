@@ -45,8 +45,8 @@ nav {
 
 
 .banner-container {
-    width: 1730px;
-    height: 652px;
+    max-width: 1730px;
+    max-height: 652px;
     margin: 0 auto;
     margin-top: 40px;
     background: url(/assets/Hero-bg.png);
@@ -149,7 +149,7 @@ nav {
     margin-bottom: 32px;
     padding: 9.5px;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .coding-sec-one-img {
@@ -203,7 +203,7 @@ nav {
     justify-content: space-between;
     border-radius: 16px;
     padding: 9.5px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .coding-sec-two-img img {
@@ -258,7 +258,7 @@ nav {
     margin-bottom: 32px;
     border-radius: 16px;
     padding: 9.5px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .coding-sec-three-img {
@@ -346,4 +346,203 @@ nav {
     opacity: 0.7;
 
 }
+
 /* My Inspiration Style Ends Here */
+
+/* My Current Target Styles Start Here */
+
+.my-current-target {
+    width: 1140px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: middle;
+    align-items: center;
+
+}
+
+.my-current-target-header {
+    text-align: center;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.my-current-target-description {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.card-container {
+    width: 1140px;
+    height: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 111px;
+
+
+}
+
+.html {
+    width: 364px;
+    height: 329px;
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.html-image {
+    width: 56px;
+    height: 56px;
+}
+
+.html-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.html-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.html-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+
+.css {
+    width: 364px;
+    height: 329px;
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.css-image {
+    width: 56px;
+    height: 56px;
+}
+
+.css-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.css-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.css-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.javascript {
+    width: 364px;
+    height: 329px;
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.js-image {
+    width: 56px;
+    height: 56px;
+}
+
+.js-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.js-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.js-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* My Current Target Styles End Here */
+
+/* Support Styles Start Here */
+
+.support {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    border: 2px solid red;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+    background: url(/assets/handshake.jpg);
+    background-size: 1140px 313px;
+    background-repeat: no-repeat;
+}
+
+.support-title {
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
